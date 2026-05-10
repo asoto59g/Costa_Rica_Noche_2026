@@ -1,5 +1,7 @@
 # Costa Rica Night Lights 2026
 
+## Visor geografico en siguiente link: https://asoto59g.github.io/Costa_Rica_Noche_2026/
+
 ## Descripción del Proyecto
 Este proyecto es un visor web interactivo que muestra las luces nocturnas de Costa Rica para el año 2026. El mapa web ha sido generado utilizando el complemento `qgis2web` desde QGIS y presenta los datos de radiancia promedio capturados por el instrumento VIIRS (Visible Infrared Imaging Radiometer Suite) a bordo del satélite Suomi NPP.
 

@@ -22,3 +22,5 @@ Este directorio no solo contiene el código fuente del mapa web, sino también t
 - `Lucesnoche.qml` / `Lucesnoche02.qml`: Archivos de estilo de QGIS. Contienen la definición de la rampa de color, intervalos y simbología aplicados a los datos crudos del raster para resaltar la densidad urbana y lumínica.
 - `CRnoche.png`: Imagen estática en alta resolución del mapa de luces nocturnas renderizado, optimizada para su divulgación en redes sociales y presentaciones.
 - **Carpetas autogeneradas (`layers/`, `resources/`, `images/`, `styles/`, `webfonts/`):** Contienen el código JavaScript subyacente, hojas de estilo CSS, librerías (como OpenLayers) y los datos vectoriales transformados a GeoJSON para su renderizado en el navegador.
+
+- https://github.com/asoto59g/Costa_Rica_Noche_2026/blob/8e14bace4b0490193ad1db10d11877f4f06977bc/CRnoche.png

@@ -9,7 +9,8 @@ var map = new ol.Map({
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([-9767893.331520, 925690.642734, -8932046.006978, 1306399.128739], map.getSize());
+// Extent ajustado al perimetro de Costa Rica (bounding box del raster VIIRS + 30km de margen)
+map.getView().fit([-9598500.0, 867446.0, -9159500.0, 1290000.0], map.getSize());
 
 //full zooms only
 map.getView().setProperties({constrainResolution: true});

@@ -48,5 +48,14 @@ var lyr_Costa_Rica_VIIRS_avg_rad_2026_2 = new ol.layer.Image({
         })
     });
 
-lyr_GoogleHybrid_0.setVisible(true);lyr_DarkMatter_1.setVisible(true);lyr_Costa_Rica_VIIRS_avg_rad_2026_2.setVisible(true);
-var layersList = [lyr_GoogleHybrid_0,lyr_DarkMatter_1,lyr_Costa_Rica_VIIRS_avg_rad_2026_2];
+        var lyr_NombresDeLugares_3 = new ol.layer.Tile({
+            'title': 'Nombres de Lugares',
+            'opacity': 1.000000,
+            source: new ol.source.XYZ({
+                attributions: '<a href="https://cartodb.com/basemaps/">Map tiles by CartoDB, under CC BY 4.0. Data by OpenStreetMap, under ODbL.</a>',
+                url: 'https://a.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}.png'
+            })
+        });
+
+lyr_GoogleHybrid_0.setVisible(true);lyr_DarkMatter_1.setVisible(true);lyr_Costa_Rica_VIIRS_avg_rad_2026_2.setVisible(true);lyr_NombresDeLugares_3.setVisible(true);
+var layersList = [lyr_GoogleHybrid_0,lyr_DarkMatter_1,lyr_Costa_Rica_VIIRS_avg_rad_2026_2,lyr_NombresDeLugares_3];

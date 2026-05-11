@@ -57,5 +57,5 @@ var lyr_Costa_Rica_VIIRS_avg_rad_2026_2 = new ol.layer.Image({
             })
         });
 
-lyr_GoogleHybrid_0.setVisible(true);lyr_DarkMatter_1.setVisible(true);lyr_Costa_Rica_VIIRS_avg_rad_2026_2.setVisible(true);lyr_NombresDeLugares_3.setVisible(true);
+lyr_GoogleHybrid_0.setVisible(false);lyr_DarkMatter_1.setVisible(true);lyr_Costa_Rica_VIIRS_avg_rad_2026_2.setVisible(true);lyr_NombresDeLugares_3.setVisible(true);
 var layersList = [lyr_GoogleHybrid_0,lyr_DarkMatter_1,lyr_Costa_Rica_VIIRS_avg_rad_2026_2,lyr_NombresDeLugares_3];
